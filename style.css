@@ -1,0 +1,503 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    /* Set the background image */
+    background-image: url('pexels-pixabay-326333.jpg');
+
+    /* Make the background image cover the entire viewport */
+    background-size: cover;
+
+    /* Position the image at the center */
+    background-position: center;
+
+    /* No repeat to avoid tiling the image */
+    background-repeat: no-repeat;
+
+    /* Ensure the content doesn't overlap the background */
+    padding: 0;
+    margin: 0;
+
+    /* Set a suitable height for the body */
+    min-height: 100vh;
+}
+
+.section-one__contact{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.section-one__title {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.heading {
+    text-transform: uppercase;
+}
+
+
+/* Section two start*/
+
+.section-two__image {
+    height: 300px;
+    width: 290px;
+    border-radius: 50px;
+
+
+}
+
+.section-two {
+
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 290px;
+    height: 500px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.section-two_button {
+    vertical-align: middle;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #04AA6D;
+    color: black;
+    font-size: 15px;
+    border: solid;
+    padding: 1px;
+}
+
+.section-two_button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
+
+.section-two_button {
+    width: 100px;
+}
+
+.section-two__heading,
+.section-two__title {
+
+    margin-top: 10px;
+}
+
+/* secion two end*/
+
+
+/*section three*/
+
+.section-three__image {
+    height: 300px;
+    width: 290px;
+    border-radius: 50px;
+}
+
+.section-three {
+    vertical-align: top;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 290px;
+    height: 500px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.section-three_button {
+    vertical-align: top;
+    text-align: center;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #04AA6D;
+    color: black;
+    font-size: 15px;
+    border: solid;
+    padding: 1px;
+
+}
+
+.section-three_button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
+
+.section-three_button {
+    width: 100px;
+}
+
+.section-three__heading,
+.section-three__title {
+
+    margin-top: 10px;
+}
+
+
+
+
+
+/* FOUR SECTION*/
+
+
+.section-four__image {
+    height: 300px;
+    width: 290px;
+    border-radius: 50px;
+}
+
+.section-four {
+    vertical-align: top;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 290px;
+    height: 500px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.section-four_button {
+    vertical-align: top;
+    text-align: center;
+    margin-top: 48px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #04AA6D;
+    color: black;
+    font-size: 15px;
+    border: solid;
+    padding: 1px;
+
+}
+
+.section-four_button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
+
+.section-four_button {
+    width: 100px;
+}
+
+.section-four__heading,
+.section-four__title {
+
+    margin-top: 10px;
+}
+
+
+/* FIVE SECTION*/
+
+
+.section-five__image {
+    height: 300px;
+    width: 290px;
+    border-radius: 50px;
+}
+
+.section-five {
+    vertical-align: top;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 290px;
+    height: 500px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.section-five_button {
+    vertical-align: top;
+    text-align: center;
+    margin-top: 66px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #04AA6D;
+    color: black;
+    font-size: 15px;
+    border: solid;
+    padding: 1px;
+
+}
+
+.section-five_button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
+
+.section-five_button {
+    width: 100px;
+}
+
+.section-five__heading,
+.section-five__title {
+
+    margin-top: 10px;
+}
+
+
+
+/*six section*/
+
+
+.section-six__image {
+    height: 300px;
+    width: 290px;
+    border-radius: 50px;
+}
+
+.section-six {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 290px;
+    height: 500px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.section-six_button {
+    vertical-align: top;
+    text-align: center;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #04AA6D;
+    color: black;
+    font-size: 15px;
+    border: solid;
+    padding: 1px;
+
+}
+
+.section-six_button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
+
+.section-six_button {
+    width: 100px;
+}
+
+.section-six__heading,
+.section-six__title {
+
+    margin-top: 10px;
+}
+
+/* seven section*/
+
+.section-seven__image {
+    height: 299px;
+    width: 290px;
+    border-radius: 50px;
+}
+
+.section-seven {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 4px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 290px;
+    height: 500px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.section-seven_button {
+    vertical-align: top;
+    text-align: center;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #04AA6D;
+    color: black;
+    font-size: 15px;
+    border: solid;
+    padding: 1px;
+
+}
+
+.section-seven_button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
+
+.section-seven_button {
+    width: 100px;
+}
+
+.section-seven__heading,
+.section-seven__title {
+
+    margin-top: 10px;
+}
+
+
+/* eight section*/
+
+.section-eight__image {
+    height: 300px;
+    width: 290px;
+    border-radius: 50px;
+}
+
+.section-eight {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 290px;
+    height: 500px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.section-eight_button {
+    vertical-align: top;
+    text-align: center;
+    margin-top: 65px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #04AA6D;
+    color: black;
+    font-size: 15px;
+    border: solid;
+    padding: 1px;
+
+}
+
+.section-eight_button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
+
+.section-eight_button {
+    width: 100px;
+}
+
+.section-eight__heading,
+.section-eight__title {
+
+    margin-top: 10px;
+}
+
+
+/* nine section*/
+
+
+.section-nine__image {
+    height: 309px;
+    width: 290px;
+    border-radius: 50px;
+}
+
+.section-nine {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    padding: 19px;
+    width: 290px;
+    height: 502px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.section-nine_button {
+    vertical-align: top;
+    text-align: center;
+    margin-top: 22px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #04AA6D;
+    color: black;
+    font-size: 15px;
+    border: solid;
+    padding: 1px;
+
+}
+
+.section-nine_button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
+
+.section-nine_button {
+    width: 100px;
+}
+
+.section-nine__heading,
+.section-nine__title {
+
+    margin-top: 10px;
+}
+
